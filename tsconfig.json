@@ -7,12 +7,14 @@
     "strict": true,
     "skipLibCheck": true,
     "outDir": "dist",
-    "rootDir": "src",
+    "rootDir": ".",
     "baseUrl": ".",
     "paths": {
       "@appointments/*": ["src/modules/appointments/*"],
       "@posts/*": ["src/modules/posts/*"],
       "@shared/*": ["src/modules/shared/*"]
     }
-  }
+  },
+  "include": ["src", "tests"],
+  "exclude": ["node_modules", "dist"]
 }
