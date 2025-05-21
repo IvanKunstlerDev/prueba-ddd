@@ -1,5 +1,5 @@
 import { PostRepository } from "@posts/domain/repositories/PostRepository";
-import { CreatePostDto } from "@posts/application/dtos/createPostDto";
+import { CreatePostDto } from "@posts/application/dtos/CreatePostDto";
 import { Post } from "@posts/domain/entities/Post";
 import { randomUUID } from "crypto";
 
