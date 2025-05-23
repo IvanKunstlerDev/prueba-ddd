@@ -1,5 +1,5 @@
-import { Post } from "@posts/domain/entities/Post";
-import { PostRepository } from "@posts/domain/repositories/PostRepository";
+import { Post } from "@blog/domain/entities/Post";
+import { PostRepository } from "@blog/domain/repositories/PostRepository";
 
 export class InMemoryPostRepository implements PostRepository {
   private posts: Post[] = [];

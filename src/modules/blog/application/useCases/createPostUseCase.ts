@@ -1,6 +1,6 @@
-import { PostRepository } from "@posts/domain/repositories/PostRepository";
-import { CreatePostDto } from "@posts/application/dtos/CreatePostDto";
-import { Post } from "@posts/domain/entities/Post";
+import { PostRepository } from "@blog/domain/repositories/PostRepository";
+import { CreatePostDto } from "@blog/application/dtos/CreatePostDto";
+import { Post } from "@blog/domain/entities/Post";
 import { randomUUID } from "crypto";
 
 export class CreatePostUseCase {
